@@ -1,0 +1,11 @@
+<div class="items" [ngClass]="{ 'items--as-cards': layout === 'cards'}">
+  <ul class="items__list">
+    <li *ngFor="let item of items" class="items__list-item">
+      <div class="item">
+        <div class="item__header"></div>
+        <h2 class="item__title"></h2>
+        <p class="item__description"></p>
+      </div>
+    </li>
+  </ul>
+</div>
